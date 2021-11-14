@@ -12,7 +12,7 @@ Data present in ADLS
 
 ![image](/images/adls-data2.png)
 
-Below are the sql scripts that need to be perfomed on SSMS (Link to complete SqlScript - ![file](/sqlScripts/polybase-read.sql)):
+Below are the sql scripts that need to be perfomed on SSMS (Link to complete SqlScript - ![file](sqlScripts/polybase-read.sql)):
 
 -- Execute all statements on data warehouse create on Azure through SSMS interface 
 -- Execute Step-1 and Step-2, if your default user don't have access and master key is missing
