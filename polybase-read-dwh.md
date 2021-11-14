@@ -10,7 +10,7 @@ Then create a storage account with ADLS gen2 enabled and upload a sample file
 
 Data present in ADLS
 
-![image](/images/adls-data.png)
+![image](/images/adls-data2.png)
 
 Below are the sql scripts that need to be perfomed on SSMS (Link to complete SqlScript - ![file](/sqlScripts/polybase-read.sql)):
 
