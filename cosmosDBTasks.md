@@ -1,15 +1,15 @@
-Creation of ComosDB and uploading items:
+**##Creation of ComosDB and uploading items:**
 
-Step 1: Go to portal.azure.com, click on create new resource and search Azure Cosmos DB. From there click on create and select “Core (SQL) - Recommended”
+**Step 1:** Go to portal.azure.com, click on create new resource and search Azure Cosmos DB. From there click on create and select “Core (SQL) - Recommended”
 After completion of the above process, we can perform the following tasks.
 
-Step-2: We can start uploading the JSON data through the upload item option.
+**Step 2:** We can start uploading the JSON data through the upload item option.
 
-![image](https://user-images.githubusercontent.com/21151444/141668065-fb3c93e4-c999-416f-9ed2-ac12a51c73e8.png)
+![image](/images/step-2.png)
 
-Step 3: Also, created the Stored Procedure named “insertingData” in JavaScript to upload items through it.
+**Step 3:** Also, created the Stored Procedure named “insertingData” in JavaScript to upload items through it.
 
-Stored Procedure script:
+**Stored Procedure script:**
 
 ```
  function createDocument(doc) {
@@ -29,13 +29,11 @@ Stored Procedure script:
  
  Click on execute and provide input params:
  
- ![image](https://user-images.githubusercontent.com/21151444/141668091-ae574142-3772-4185-973d-41f4b5b78b4b.png)
- 
- ![image](https://user-images.githubusercontent.com/21151444/141668140-6e43b250-b867-438e-b4db-754e5aa14752.png)
+  ![image](/images/step-3.jpg) 
+  ![image](/images/step-3a.png)
+  ![image](/images/step=3b.png)
 
- ![image](https://user-images.githubusercontent.com/21151444/141668154-44f72057-a04d-4bb6-aa73-22f0c131e17f.png)
- 
- Step-4: Creation of UDF for calculation of tax
+ **Step 4:** Creation of UDF for calculation of tax
 
 UDF script
 
@@ -50,8 +48,7 @@ function getTax(price) {
 }
 ```
 
-![image](https://user-images.githubusercontent.com/21151444/141668172-aea41f04-74a8-41cb-bc7e-69c8cc5ea115.png)
-
+![image](/images/step-4.png)
 
 Execution of UDF:
 
