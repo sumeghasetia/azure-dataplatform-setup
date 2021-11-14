@@ -11,6 +11,7 @@ Step 3: Also, created the Stored Procedure named “insertingData” in JavaScri
 
 Stored Procedure script:
 
+```
  function createDocument(doc) {
      var context = getContext();
      var collection = context.getCollection();
@@ -24,8 +25,37 @@ Stored Procedure script:
      );
      if (!accepted) return;
  }
+ ```
  
  Click on execute and provide input params:
  
  ![image](https://user-images.githubusercontent.com/21151444/141668091-ae574142-3772-4185-973d-41f4b5b78b4b.png)
+ 
+ ![image](https://user-images.githubusercontent.com/21151444/141668140-6e43b250-b867-438e-b4db-754e5aa14752.png)
+
+ ![image](https://user-images.githubusercontent.com/21151444/141668154-44f72057-a04d-4bb6-aa73-22f0c131e17f.png)
+ 
+ Step-4: Creation of UDF for calculation of tax
+
+UDF script
+
+```
+function getTax(price) {
+        if(price == undefined)
+            throw 'no input';
+        if (price < 100)
+            return price * 0.1;
+        else
+            return price * 0.2;
+}
+```
+
+![image](https://user-images.githubusercontent.com/21151444/141668172-aea41f04-74a8-41cb-bc7e-69c8cc5ea115.png)
+
+
+Execution of UDF:
+
+![image](../images/step-4a.png)
+
+
 
