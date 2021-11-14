@@ -42,4 +42,10 @@ Parameters in Copy activity
 
 ![image](/images/adls-pipeline-2.png)
 
+Check data in ADLS:
+
+![image](/images/azure-sql-db1.png)
+
+![image](/images/azure-sql-db2.png)
+
 
