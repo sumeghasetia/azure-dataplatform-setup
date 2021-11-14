@@ -29,8 +29,8 @@ After completion of the above process, we can perform the following tasks.
  
  Click on execute and provide input params:
  
-  ![image](/images/step-3.jpg)
-  
+  ![image](/images/step-3.png)
+    
   ![image](/images/step-3a.png)
   
   ![image](/images/step=3b.png)
