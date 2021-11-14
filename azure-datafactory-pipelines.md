@@ -36,4 +36,10 @@ Step 3: Create pipeline by clicking on create new pipeline. Activities used will
 
 ![image](/images/adls-pipeline.png)
 
+Parameters in Copy activity
+
+![image](/images/adls-pipeline-1.png)
+
+![image](/images/adls-pipeline-2.png)
+
 
