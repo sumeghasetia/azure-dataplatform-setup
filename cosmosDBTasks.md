@@ -55,7 +55,7 @@ function getTax(price) {
 
 Execution of UDF:
 
-![image](../images/step-4a.png)
+![image](/images/step-4a.png)
 
 
 
