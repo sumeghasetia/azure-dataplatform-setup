@@ -1,4 +1,4 @@
-** Creation of ComosDB and uploading items:**
+## Creation of ComosDB and uploading items:
 
 **Step 1:** Go to portal.azure.com, click on create new resource and search Azure Cosmos DB. From there click on create and select “Core (SQL) - Recommended”
 After completion of the above process, we can perform the following tasks.
@@ -55,6 +55,3 @@ function getTax(price) {
 Execution of UDF:
 
 ![image](/images/step-4a.png)
-
-
-
