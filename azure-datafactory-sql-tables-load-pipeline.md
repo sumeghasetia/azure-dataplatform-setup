@@ -28,6 +28,8 @@ values
 ('dbo', 'adls_gen2', 'DimGeography', 'GeographyKey, City, StateProvinceCode, StateProvinceName, CountryRegionCode, EnglishCountryRegionName, SpanishCountryRegionName, FrenchCountryRegionName, PostalCode, SalesTerritoryKey', 0)
 ```
 
+Complete script file- [Link](https://github.com/sumeghasetia/azure-dataplatform-setup/blob/df413548597603c7b763332193bb33e558a01c9a/sqlScripts/Azure-pipeline-lookup.sql)
+
 Step 2: Create Linked services and Datasets of both source and destination.
 
 ![image](/images/ADF_LS_DS.png)
