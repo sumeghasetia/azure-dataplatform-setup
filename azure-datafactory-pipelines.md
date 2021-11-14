@@ -30,16 +30,16 @@ values
 
 Step 2: Create Linked services and Datasets of both source and destination.
 
-![image](/images/ADF_LS_DS.png)
+	![image](/images/ADF_LS_DS.png)
 
 Step 3: Create pipeline by clicking on create new pipeline. Activities used will be lookup (to get details of tables to be synced), foearch (for iterating on output of lookup activity) and foeach will have copy activity (actual copy of data, this is parameterized).
 
-![image](/images/adls-pipeline.png)
+	![image](/images/adls-pipeline.png)
 
 Parameters in Copy activity
 
-![image](/images/adls-pipeline-1.png)
+	![image](/images/adls-pipeline-1.png)
 
-![image](/images/adls-pipeline-2.png)
+	![image](/images/adls-pipeline-2.png)
 
 
