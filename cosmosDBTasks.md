@@ -6,4 +6,4 @@ After completion of the above process, we can perform the following tasks.
 Step-2: We can start uploading the JSON data through the upload item option.
 
 /images/step-2.jpg
-![Alt text](/../main/azure-dataplatform-setup/images/step-2.png?raw=true)
+![Alt text](/../<main>/azure-dataplatform-setup/images/step-2.png?raw=true)
